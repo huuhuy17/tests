@@ -1,0 +1,42 @@
+{
+  "login_data": [
+    {
+      "data": {
+        "username": "0358999863",
+        "password": "B19cn311@",
+        "country": "VN"
+      },
+      "headers": {
+        "client_id": "862727b712104062adfe790aa4c77a13",
+        "sign": "56AD0D61E733C1AB0C0757E6B28A458E8FD327DA27BBED0C881A858FFDC839EA",
+        "t": "1639452750155",
+        "sign_method": "HMAC-SHA256",
+        "Content-Type": "application/json"
+      },
+      "wrong_params": [
+            {
+
+            },
+            {
+                "USERNAME": "@#aZ9",
+                "PASSWORD": "Az9"
+            },
+            {
+                "username": "  ",
+                "password": "bbb"
+            },
+            {
+                "username": "aaa",
+                "password": "  "
+            }
+        ],
+      
+      "injection_data": [
+        {
+          "username": "huynh@bkav.com",
+          "password": "111 OR 1=1"
+        }
+      ]
+    }
+  ]
+}
